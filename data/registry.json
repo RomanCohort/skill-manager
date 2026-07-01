@@ -1,0 +1,603 @@
+{
+  "agentdb-advanced": {
+    "skill_id": "agentdb-advanced",
+    "name": "AgentDB Advanced Features",
+    "description": "Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building distributed AI systems, multi-agent coordination, or advanced vector search applications.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\agentdb-advanced",
+    "installed_at": "2026-07-01T17:52:32.043206",
+    "last_updated": "2026-07-01T17:52:32.043210",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "agentdb-learning": {
+    "skill_id": "agentdb-learning",
+    "name": "AgentDB Learning Plugins",
+    "description": "Create and train AI learning plugins with AgentDB's 9 reinforcement learning algorithms. Includes Decision Transformer, Q-Learning, SARSA, Actor-Critic, and more. Use when building self-learning agents, implementing RL, or optimizing agent behavior through experience.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\agentdb-learning",
+    "installed_at": "2026-07-01T17:52:32.043363",
+    "last_updated": "2026-07-01T17:52:32.043365",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "agentdb-memory-patterns": {
+    "skill_id": "agentdb-memory-patterns",
+    "name": "AgentDB Memory Patterns",
+    "description": "Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term storage, pattern learning, and context management. Use when building stateful agents, chat systems, or intelligent assistants.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\agentdb-memory-patterns",
+    "installed_at": "2026-07-01T17:52:32.043629",
+    "last_updated": "2026-07-01T17:52:32.043632",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "agentdb-optimization": {
+    "skill_id": "agentdb-optimization",
+    "name": "AgentDB Performance Optimization",
+    "description": "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed, or scaling to millions of vectors.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\agentdb-optimization",
+    "installed_at": "2026-07-01T17:52:32.043840",
+    "last_updated": "2026-07-01T17:52:32.043842",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "agentdb-vector-search": {
+    "skill_id": "agentdb-vector-search",
+    "name": "AgentDB Vector Search",
+    "description": "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelligent knowledge bases.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\agentdb-vector-search",
+    "installed_at": "2026-07-01T17:52:32.043996",
+    "last_updated": "2026-07-01T17:52:32.043998",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "browser": {
+    "skill_id": "browser",
+    "name": "browser",
+    "description": "Web browser automation with AI-optimized snapshots for claude-flow agents",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\browser",
+    "installed_at": "2026-07-01T17:52:32.044121",
+    "last_updated": "2026-07-01T17:52:32.044123",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "confluencia": {
+    "skill_id": "confluencia",
+    "name": "confluencia",
+    "description": "AI+Science 研究助手 - 文献检索、数据分析、论文写作",
+    "trigger_words": [],
+    "category": "学术研究",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\confluencia",
+    "installed_at": "2026-07-01T17:52:32.044403",
+    "last_updated": "2026-07-01T17:52:32.044405",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "figmirror": {
+    "skill_id": "figmirror",
+    "name": "figmirror",
+    "description": "This FigMirror skill should be used when the user asks to \"mirror this figure's style\", \"copy this figure's style\", \"make a chart that looks like this paper\", \"reproduce this figure with my data\", \"match this paper's aesthetic\", \"I want a NeurIPS-quality version of this\", or any variant where they hand over a cropped or uncropped reference figure AND their own data and want their data rendered in the same visual register. ALSO triggers when the user attaches a paper-figure screenshot plus tabular data and asks for matplotlib output. Does NOT trigger on generic matplotlib chart requests with no reference image — that's a basic matplotlib task, not style transfer.",
+    "trigger_words": [
+      "match this paper",
+      "copy this figure",
+      "mirror this figure"
+    ],
+    "category": "工程技术",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\figmirror",
+    "installed_at": "2026-07-01T17:52:32.044629",
+    "last_updated": "2026-07-01T17:52:32.044631",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "github-code-review": {
+    "skill_id": "github-code-review",
+    "name": "github-code-review",
+    "description": "Comprehensive GitHub code review with AI-powered swarm coordination",
+    "trigger_words": [],
+    "category": "GitHub集成",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\github-code-review",
+    "installed_at": "2026-07-01T17:52:32.044860",
+    "last_updated": "2026-07-01T17:52:32.044863",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "github-multi-repo": {
+    "skill_id": "github-multi-repo",
+    "name": "github-multi-repo",
+    "description": "",
+    "trigger_words": [],
+    "category": "GitHub集成",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\github-multi-repo",
+    "installed_at": "2026-07-01T17:52:32.045031",
+    "last_updated": "2026-07-01T17:52:32.045033",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "github-project-management": {
+    "skill_id": "github-project-management",
+    "name": "github-project-management",
+    "description": "",
+    "trigger_words": [],
+    "category": "商业运营",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\github-project-management",
+    "installed_at": "2026-07-01T17:52:32.045157",
+    "last_updated": "2026-07-01T17:52:32.045158",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "github-release-management": {
+    "skill_id": "github-release-management",
+    "name": "github-release-management",
+    "description": "",
+    "trigger_words": [],
+    "category": "GitHub集成",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\github-release-management",
+    "installed_at": "2026-07-01T17:52:32.045287",
+    "last_updated": "2026-07-01T17:52:32.045289",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "github-workflow-automation": {
+    "skill_id": "github-workflow-automation",
+    "name": "github-workflow-automation",
+    "description": "",
+    "trigger_words": [],
+    "category": "GitHub集成",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\github-workflow-automation",
+    "installed_at": "2026-07-01T17:52:32.045410",
+    "last_updated": "2026-07-01T17:52:32.045411",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "hooks-automation": {
+    "skill_id": "hooks-automation",
+    "name": "Hooks Automation",
+    "description": "Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre/post task hooks, session management, Git integration, memory coordination, and neural pattern training for enhanced development workflows.",
+    "trigger_words": [],
+    "category": "GitHub集成",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\hooks-automation",
+    "installed_at": "2026-07-01T17:52:32.045535",
+    "last_updated": "2026-07-01T17:52:32.045536",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "humanizer": {
+    "skill_id": "humanizer",
+    "name": "humanizer",
+    "description": "",
+    "trigger_words": [],
+    "category": "文本处理",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\humanizer",
+    "installed_at": "2026-07-01T17:52:32.045726",
+    "last_updated": "2026-07-01T17:52:32.045727",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "humanizer_academic": {
+    "skill_id": "humanizer_academic",
+    "name": "humanizer_academic",
+    "description": "",
+    "trigger_words": [],
+    "category": "文本处理",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\humanizer_academic",
+    "installed_at": "2026-07-01T17:52:32.045895",
+    "last_updated": "2026-07-01T17:52:32.045896",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "karlmarx-skill": {
+    "skill_id": "karlmarx-skill",
+    "name": "karlmarx-skill",
+    "description": "Use Marxist methodology for deep structural analysis. Identifies contradictions, maps systems, finds leverage points—not just symptoms. Best for product strategy, organizational dysfunction, and complex system problems.",
+    "trigger_words": [],
+    "category": "思维方法",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\karlmarx-skill",
+    "installed_at": "2026-07-01T17:52:32.046039",
+    "last_updated": "2026-07-01T17:52:32.046041",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "nuwa-skill": {
+    "skill_id": "nuwa-skill",
+    "name": "huashu-nuwa",
+    "description": "",
+    "trigger_words": [],
+    "category": "思维方法",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\nuwa-skill",
+    "installed_at": "2026-07-01T17:52:32.046310",
+    "last_updated": "2026-07-01T17:52:32.046312",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "pair-programming": {
+    "skill_id": "pair-programming",
+    "name": "Pair Programming",
+    "description": "AI-assisted pair programming with multiple modes (driver/navigator/switch), real-time verification, quality monitoring, and comprehensive testing. Supports TDD, debugging, refactoring, and learning sessions. Features automatic role switching, continuous code review, security scanning, and performance optimization with truth-score verification.",
+    "trigger_words": [],
+    "category": "强化学习",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\pair-programming",
+    "installed_at": "2026-07-01T17:52:32.046458",
+    "last_updated": "2026-07-01T17:52:32.046459",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "reasoningbank-agentdb": {
+    "skill_id": "reasoningbank-agentdb",
+    "name": "ReasoningBank with AgentDB",
+    "description": "Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes trajectory tracking, verdict judgment, memory distillation, and pattern recognition. Use when building self-learning agents, optimizing decision-making, or implementing experience replay systems.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\reasoningbank-agentdb",
+    "installed_at": "2026-07-01T17:52:32.046695",
+    "last_updated": "2026-07-01T17:52:32.046697",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "reasoningbank-intelligence": {
+    "skill_id": "reasoningbank-intelligence",
+    "name": "ReasoningBank Intelligence",
+    "description": "Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and continuous improvement. Use when building self-learning agents, optimizing workflows, or implementing meta-cognitive systems.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\reasoningbank-intelligence",
+    "installed_at": "2026-07-01T17:52:32.046818",
+    "last_updated": "2026-07-01T17:52:32.046819",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "skill-builder": {
+    "skill_id": "skill-builder",
+    "name": "Skill Builder",
+    "description": "Create new Claude Code Skills with proper YAML frontmatter, progressive disclosure structure, and complete directory organization. Use when you need to build custom skills for specific workflows, generate skill templates, or understand the Claude Skills specification.",
+    "trigger_words": [],
+    "category": "其他",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\skill-builder",
+    "installed_at": "2026-07-01T17:52:32.047002",
+    "last_updated": "2026-07-01T17:52:32.047003",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "socrates": {
+    "skill_id": "socrates",
+    "name": "socrates",
+    "description": "Socratic method teaching skill that guides users to discover answers themselves through questioning, never giving direct answers. TRIGGER when: user's message contains 'socratic', 'Socrates', or '소크라테스'. Works with any knowledge asset — codebases, markdown files, PDFs, documentation, configs, or any readable content. Respond in the user's language.",
+    "trigger_words": [
+      "s message contains ",
+      "소크라테스",
+      "socratic",
+      "Socrates"
+    ],
+    "category": "思维方法",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\socrates",
+    "installed_at": "2026-07-01T17:52:32.047123",
+    "last_updated": "2026-07-01T17:52:32.047125",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "sparc-methodology": {
+    "skill_id": "sparc-methodology",
+    "name": "sparc-methodology",
+    "description": "",
+    "trigger_words": [],
+    "category": "开发工具",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\sparc-methodology",
+    "installed_at": "2026-07-01T17:52:32.047236",
+    "last_updated": "2026-07-01T17:52:32.047248",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "stream-chain": {
+    "skill_id": "stream-chain",
+    "name": "stream-chain",
+    "description": "Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\stream-chain",
+    "installed_at": "2026-07-01T17:52:32.047374",
+    "last_updated": "2026-07-01T17:52:32.047376",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "swarm-advanced": {
+    "skill_id": "swarm-advanced",
+    "name": "swarm-advanced",
+    "description": "",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\swarm-advanced",
+    "installed_at": "2026-07-01T17:52:32.047488",
+    "last_updated": "2026-07-01T17:52:32.047489",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "swarm-orchestration": {
+    "skill_id": "swarm-orchestration",
+    "name": "Swarm Orchestration",
+    "description": "Orchestrate multi-agent swarms with agentic-flow for parallel task execution, dynamic topology, and intelligent coordination. Use when scaling beyond single agents, implementing complex workflows, or building distributed AI systems.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\swarm-orchestration",
+    "installed_at": "2026-07-01T17:52:32.047604",
+    "last_updated": "2026-07-01T17:52:32.047606",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-cli-modernization": {
+    "skill_id": "v3-cli-modernization",
+    "name": "V3 CLI Modernization",
+    "description": "CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, command decomposition, enhanced hooks integration, and intelligent workflow automation.",
+    "trigger_words": [],
+    "category": "自动化工具",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-cli-modernization",
+    "installed_at": "2026-07-01T17:52:32.047728",
+    "last_updated": "2026-07-01T17:52:32.047729",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-core-implementation": {
+    "skill_id": "v3-core-implementation",
+    "name": "V3 Core Implementation",
+    "description": "Core module implementation for claude-flow v3. Implements DDD domains, clean architecture patterns, dependency injection, and modular TypeScript codebase with comprehensive testing.",
+    "trigger_words": [],
+    "category": "其他",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-core-implementation",
+    "installed_at": "2026-07-01T17:52:32.047863",
+    "last_updated": "2026-07-01T17:52:32.047865",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-ddd-architecture": {
+    "skill_id": "v3-ddd-architecture",
+    "name": "V3 DDD Architecture",
+    "description": "Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architecture with clean separation of concerns and microkernel pattern.",
+    "trigger_words": [],
+    "category": "其他",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-ddd-architecture",
+    "installed_at": "2026-07-01T17:52:32.047993",
+    "last_updated": "2026-07-01T17:52:32.047994",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-integration-deep": {
+    "skill_id": "v3-integration-deep",
+    "name": "V3 Deep Integration",
+    "description": "Deep agentic-flow@alpha integration implementing ADR-001. Eliminates 10,000+ duplicate lines by building claude-flow as specialized extension rather than parallel implementation.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-integration-deep",
+    "installed_at": "2026-07-01T17:52:32.048106",
+    "last_updated": "2026-07-01T17:52:32.048108",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-mcp-optimization": {
+    "skill_id": "v3-mcp-optimization",
+    "name": "V3 MCP Optimization",
+    "description": "MCP server optimization and transport layer enhancement for claude-flow v3. Implements connection pooling, load balancing, tool registry optimization, and performance monitoring for sub-100ms response times.",
+    "trigger_words": [],
+    "category": "其他",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-mcp-optimization",
+    "installed_at": "2026-07-01T17:52:32.048225",
+    "last_updated": "2026-07-01T17:52:32.048227",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-memory-unification": {
+    "skill_id": "v3-memory-unification",
+    "name": "V3 Memory Unification",
+    "description": "Unify 6+ memory systems into AgentDB with HNSW indexing for 150x-12,500x search improvements. Implements ADR-006 (Unified Memory Service) and ADR-009 (Hybrid Memory Backend).",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-memory-unification",
+    "installed_at": "2026-07-01T17:52:32.048332",
+    "last_updated": "2026-07-01T17:52:32.048333",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-performance-optimization": {
+    "skill_id": "v3-performance-optimization",
+    "name": "V3 Performance Optimization",
+    "description": "Achieve aggressive v3 performance targets: 2.49x-7.47x Flash Attention speedup, 150x-12,500x search improvements, 50-75% memory reduction. Comprehensive benchmarking and optimization suite.",
+    "trigger_words": [],
+    "category": "向量搜索",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-performance-optimization",
+    "installed_at": "2026-07-01T17:52:32.048451",
+    "last_updated": "2026-07-01T17:52:32.048453",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-security-overhaul": {
+    "skill_id": "v3-security-overhaul",
+    "name": "V3 Security Overhaul",
+    "description": "Complete security architecture overhaul for claude-flow v3. Addresses critical CVEs (CVE-1, CVE-2, CVE-3) and implements secure-by-default patterns. Use for security-first v3 implementation.",
+    "trigger_words": [],
+    "category": "其他",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-security-overhaul",
+    "installed_at": "2026-07-01T17:52:32.048566",
+    "last_updated": "2026-07-01T17:52:32.048568",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "v3-swarm-coordination": {
+    "skill_id": "v3-swarm-coordination",
+    "name": "V3 Swarm Coordination",
+    "description": "15-agent hierarchical mesh coordination for v3 implementation. Orchestrates parallel execution across security, core, and integration domains following 10 ADRs with 14-week timeline.",
+    "trigger_words": [],
+    "category": "Agent编排",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\v3-swarm-coordination",
+    "installed_at": "2026-07-01T17:52:32.048676",
+    "last_updated": "2026-07-01T17:52:32.048677",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  },
+  "verification-quality": {
+    "skill_id": "verification-quality",
+    "name": "Verification & Quality Assurance",
+    "description": "",
+    "trigger_words": [],
+    "category": "质量验证",
+    "status": "enabled",
+    "path": "C:\\Users\\LENOVO\\.claude\\skills\\verification-quality",
+    "installed_at": "2026-07-01T17:52:32.048787",
+    "last_updated": "2026-07-01T17:52:32.048788",
+    "metrics": {
+      "invocations": 0,
+      "success_rate": 0.0,
+      "avg_execution_time_ms": 0.0
+    }
+  }
+}
