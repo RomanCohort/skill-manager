@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Skill Manager - Standalone CLI (Windows Compatible)
+Skill Manager - Main Entry Point (Enhanced Version)
+
+Automatically scans both global and project-level skills.
 """
 
 import sys
@@ -9,12 +11,12 @@ import json
 import argparse
 import re
 from pathlib import Path
+from typing import Dict, List, Optional
 from datetime import datetime
-from typing import Dict, List, Optional, Tuple
 
-# ============================================================================
-# Registry Module
-# ============================================================================
+# Import enhanced registry
+sys.path.insert(0, str(Path(__file__).parent))
+from core.registry import SkillRegistry
 
 class SkillRegistry:
     """Central registry for all Claude Code skills."""

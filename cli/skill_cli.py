@@ -1,7 +1,5 @@
 """
-Skill Manager - CLI Interface
-
-Main command-line interface for skill management.
+Skill Manager - Enhanced CLI with Project Skill Support
 """
 
 import argparse
@@ -9,7 +7,9 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from ..core.registry import SkillRegistry
+# Import enhanced registry
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from core.registry import SkillRegistry
 from ..core.activation_engine import ActivationEngine
 
 
